@@ -13,18 +13,18 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 ## Project Directory
 
 src  
-  app  
-    standardDeviation  
-      standard-deviation.component.ts  
-      standard-deviation.component.html  
-    user-add  
-      user-add.component.html  
-      user-add.component.ts  
-    user-listing  
-      user-listing.component.html  
-      user-listing.component.ts  
-    calculate.directive.ts  
-    utils.service.ts  
+  &nbsp;app  
+    &nbsp;&nbsp;standardDeviation  
+      &nbsp;&nbsp;&nbsp;standard-deviation.component.ts  
+      &nbsp;&nbsp;&nbsp;standard-deviation.component.html  
+    &nbsp;&nbsp;user-add  
+      &nbsp;&nbsp;&nbsp;user-add.component.html  
+      &nbsp;&nbsp;&nbsp;user-add.component.ts  
+    &nbsp;&nbsp;user-listing  
+      &nbsp;&nbsp;&nbsp;user-listing.component.html  
+      &nbsp;&nbsp;&nbsp;user-listing.component.ts  
+    &nbsp;&nbsp;calculate.directive.ts  
+    &nbsp;&nbsp;utils.service.ts  
 package.json  
 angular.json  
 styles.css  
