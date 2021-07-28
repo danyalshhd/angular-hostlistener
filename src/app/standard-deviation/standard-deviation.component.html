@@ -1,0 +1,17 @@
+<div class="form-group col-lg-3">
+  <label>Input Array of Numbers:</label>
+  <input
+    class="form-control"
+    type="text"
+    [(ngModel)]="textToCalculate"
+  >
+  <input
+    type="button"
+    class="btn btn-primary margin-t-8"
+    appCalculate [input]="textToCalculate"
+    (showText)="showText($event)"
+    value="Calculate"
+  >
+</div>
+
+<p>{{ calculatedText }}</p>

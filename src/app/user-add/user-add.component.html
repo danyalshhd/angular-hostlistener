@@ -1,0 +1,44 @@
+<div class="col-lg-3">
+  <input
+    type="text"
+    class="form-control"
+    [(ngModel)]="name"
+    placeholder="Name"
+  >
+  <input
+    type="number"
+    class="form-control margin-t-8"
+    [(ngModel)]="age"
+    placeholder="Age"
+  >
+
+  <label>
+    Gender:
+  </label>
+
+  <select
+    [(ngModel)]="selectedGender"
+    class="form-control margin-t-8"
+    type="select"
+    placeholder="Gender Dropdown"
+  >
+    <option
+      *ngFor="let gender of genders"
+      [ngValue]="gender.value"
+    >
+      {{ gender.name }}
+    </option>
+  </select>
+</div>
+
+<br/>
+<input
+  class="btn btn-primary"
+  type="button"
+  value="Add"
+  (click)="addUser()"
+>
+
+<app-user-listing
+  [userListing]="userListing"
+></app-user-listing>
